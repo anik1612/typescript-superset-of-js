@@ -1,0 +1,1 @@
+export type userType = { name: string; city: string }
