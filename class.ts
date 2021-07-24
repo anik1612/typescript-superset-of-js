@@ -1,16 +1,14 @@
 class Player {
-	public name: string; // access modifier
-	private age: number; // access modifier
-	readonly country: string; // access modifier
-
-	constructor(name: string, age: number, country: string) {
-		this.name = name;
-		this.age = age;
-		this.country = country;
-	}
+	constructor(
+		public name: string,
+		private age: number,
+		readonly country: string
+	) {}
 
 	play() {
-		console.log(`${this.name} from ${this.country} is playing`);
+		console.log(
+			`name: ${this.name}, age: ${this.age} & country: ${this.country}`
+		);
 	}
 }
 

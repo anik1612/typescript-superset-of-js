@@ -6,7 +6,7 @@ var Player = /** @class */ (function () {
         this.country = country;
     }
     Player.prototype.play = function () {
-        console.log(this.name + " from " + this.country + " is playing");
+        console.log("name: " + this.name + ", age: " + this.age + " & country: " + this.country);
     };
     return Player;
 }());
