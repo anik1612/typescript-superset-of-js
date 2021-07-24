@@ -1,39 +1,38 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var fullName = 'anik sarker';
-var myFunc = function () {
+const fullName = 'anik sarker';
+const myFunc = () => {
     console.log('hello there');
 };
-var sum = function (a, b) {
+const sum = (a, b) => {
     return a + b;
 };
 console.log(sum(1, 2));
 // array
-var fruits = ['apple', 'banana', 'orange'];
+const fruits = ['apple', 'banana', 'orange'];
 fruits.push('pineapple');
 // type alias
-var userDetails = function (id, fullName) {
-    console.log("Your id is " + id + ", and you name is " + fullName);
+const userDetails = (id, fullName) => {
+    console.log(`Your id is ${id}, and you name is ${fullName}`);
 };
-var userObjDetails = function (id, user) {
-    console.log("Your id is " + id + ", you name is " + user.name + " and you city is " + user.city);
+const userObjDetails = (id, user) => {
+    console.log(`Your id is ${id}, you name is ${user.name} and you city is ${user.city}`);
 };
 userObjDetails(1, { name: 'anik', city: 'rajbari' });
 // array type
-var array = [];
+const array = [];
 array.push(3);
 // object type
-var obj;
+let obj;
 obj = {
     name: 'anik sarker',
 };
 // Function type
-var sumFunc;
-sumFunc = function (a, b) {
+let sumFunc;
+sumFunc = (a, b) => {
     return a + b;
 };
 // Function Signature
-var sayHello;
-sayHello = function (name) {
-    return "Your name is " + name;
+let sayHello;
+sayHello = (name) => {
+    return `Your name is ${name}`;
 };
+export {};

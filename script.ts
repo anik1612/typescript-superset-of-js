@@ -1,4 +1,4 @@
-import { userType } from './type';
+import { userType } from './type.js';
 
 const fullName = 'anik sarker';
 
