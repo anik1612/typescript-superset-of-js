@@ -30,3 +30,17 @@ const userObjDetails = (id: number, user: userType) => {
 };
 
 userObjDetails(1, { name: 'anik', city: 'rajbari' });
+
+// array type
+const array: (number | string)[] = [];
+
+array.push(3);
+
+// object type
+let obj: {
+	name: string;
+};
+
+obj = {
+	name: 'anik sarker',
+};

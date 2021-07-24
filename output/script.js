@@ -19,3 +19,11 @@ var userObjDetails = function (id, user) {
     console.log("Your id is " + id + ", you name is " + user.name + " and you city is " + user.city);
 };
 userObjDetails(1, { name: 'anik', city: 'rajbari' });
+// array type
+var array = [];
+array.push(3);
+// object type
+var obj;
+obj = {
+    name: 'anik sarker',
+};
