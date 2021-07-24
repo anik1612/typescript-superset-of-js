@@ -44,3 +44,17 @@ let obj: {
 obj = {
 	name: 'anik sarker',
 };
+
+// Function type
+let sumFunc: Function;
+
+sumFunc = (a: number, b: number): number => {
+	return a + b;
+};
+
+// Function Signature
+let sayHello: (name: string) => string;
+
+sayHello = (name: string) => {
+	return `Your name is ${name}`;
+};

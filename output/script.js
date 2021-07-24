@@ -27,3 +27,13 @@ var obj;
 obj = {
     name: 'anik sarker',
 };
+// Function type
+var sumFunc;
+sumFunc = function (a, b) {
+    return a + b;
+};
+// Function Signature
+var sayHello;
+sayHello = function (name) {
+    return "Your name is " + name;
+};
